@@ -7,7 +7,17 @@ import pydeck as pdk
 
 st.set_page_config(page_title="Pixl Parking Dashboard", layout="wide")
 st.title("Pixl Parking — Cost & Coverage Dashboard")
+st.markdown(
+    """
+**How to use this demo (30 seconds):**
+1. Adjust the SLA target in the left sidebar.
+2. Increase/decrease Active and Opportunistic drivers.
+3. Toggle Transit on/off.
+4. Watch how cost changes relative to % of segments meeting the SLA.
 
+This models how a city can choose the lowest-cost deployment mix that satisfies a refresh-time target.
+"""
+)
 LOCAL_GEOJSON = os.path.join("data", "curb_segments.geojson")
 
 CARTO_STYLES = {
