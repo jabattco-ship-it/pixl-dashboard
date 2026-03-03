@@ -10,7 +10,7 @@ st.title("Pixl Parking — Cost & Coverage Dashboard")
 st.markdown(
     """
 **How to use this demo (30 seconds):**
-1. Adjust the SLA target in the left sidebar.
+1. Adjust the SLA target (frequency a parked car is tagged) in the left sidebar.
 2. Increase/decrease Active and Opportunistic drivers.
 3. Toggle Transit on/off.
 4. Watch how cost changes relative to % of segments meeting the SLA.
