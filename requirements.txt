@@ -9,7 +9,3 @@
 pydeck\
 pandas\
 numpy\
-geopandas\
-shapely\
-pyproj\
-requests}
